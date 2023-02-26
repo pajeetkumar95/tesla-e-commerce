@@ -9,6 +9,13 @@ function Home() {
     <>
         <Header/>
         <Section backgroundImage = "model-3.jpg"/>
+        <Section backgroundImage = "model-3.jpg"/>
+        <Section backgroundImage = "model-3.jpg"/>
+        <Section backgroundImage = "model-3.jpg"/>
+        <Section backgroundImage = "model-3.jpg"/>
+        <Section backgroundImage = "model-3.jpg"/>
+        <Section backgroundImage = "model-3.jpg"/>
+        <Section backgroundImage = "model-3.jpg"/>
     </>
   )
 }
