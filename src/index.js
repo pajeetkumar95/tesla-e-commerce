@@ -1,17 +1,37 @@
-import React from 'react';
+import React from 'react'; 
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import {Name} from './App'
+// import Sum from './App'
+// import Name from './App'
+// import Counter from './State/Counter'
+// import Home from './ControlComponents/Home'
+// import House from './ControlComponents/Home'
+// import Edit from './EditComponenets/Edit'
+import Home from './Tesla Work/Home'
+import "./Tesla Work/./tesla.css"
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'))
+// let Name = 'Ajeet'
+
+// const a = 100;
+// const b = 200;
+
+
+// root.render(
+//     <>
+//         {/* <h1>Hello {Name}</h1>
+//         <h1>Sum is <Sum num1={a} num2={b} /> </h1> */}
+
+//         {/* <Counter/> */}
+
+//         {/* <Home/> */}
+//         {/* <House/> */}
+
+//         {/* <Edit/> */}
+//     </>
+
+// )
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    <Home/>    
+)
