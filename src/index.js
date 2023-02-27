@@ -9,6 +9,9 @@ import ReactDOM from 'react-dom/client';
 // import Edit from './EditComponenets/Edit'
 import Home from './Tesla Work/Home'
 import "./Tesla Work/./tesla.css"
+// import Head from './Axios/Head'
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 // let Name = 'Ajeet'
@@ -32,6 +35,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 
 // )
 
-root.render(
-    <Home/>    
-)
+root.render(<Home/>)
+
+// root.render(<Head/>)
