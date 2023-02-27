@@ -3,15 +3,13 @@ import React from "react";
 function Section(props) {
   return (
     <section
-      style={{ backgroundImage: `url(teslaimages/${props.backgroundImage})` }}
-    >
+      style={{ backgroundImage: `url(teslaimages/${props.backgroundImage})` }}>
       <div className="section">
-        <h1>Model 3</h1>
-        <p>Order Online for Touchless Delivery</p>
+        <h1>{props.name}</h1>
+        <p>{props.para}</p>
           <div className="anchor">
-            <a href="">Custom Order</a>
-            <a href="">Existing Order</a>
-            {/* <img src="teslaimages.down-arrow.svg"></img> */}
+             {props.rightbtn && <a href="">{props.rightbtn}</a>}
+            <a href="">{props.leftbtn}</a>
           </div>
       </div>
     </section>

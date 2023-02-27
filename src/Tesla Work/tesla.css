@@ -35,13 +35,17 @@
     display: flex;
 }
 
-.section{
+section{
     height: 100vh;
     background-attachment: scroll;
-    background-position: 50%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+}
+
+section img{
+    width: 50%;
 }
 
 .section h1{
@@ -54,23 +58,52 @@
     font-size: 1.50rem;
 }
 
-.anchor a:first-of-type{
+.anchor a:nth-of-type(1){
+    display: inline-block;
     text-decoration: none;
     color: #fff;
-    background-color: rgba(0,0, 0,0.5);
-    margin: 5rem 2rem;
-    padding: 1rem 5rem;
-    font-size: 1.50rem;
+    background-color:rgba(0,0,0,0.6);
+    margin: 18rem 0rem;
+    padding: 1rem 3.5rem;
+    font-size: 1rem;
     border-radius: 30px;
 }
 
 
-.anchor a:last-of-type{
+.anchor a:nth-of-type(2){
+    display: inline-block;
     text-decoration: none;
     color: #000;
-    background-color: rgba(255,255,255, 0.6);
-    margin: 5rem 2rem;
-    padding: 1rem 5rem;
-    font-size: 1.50rem;
+    background-color:rgba(255,255,255,0.5);
+    margin: 1rem 1rem;
+    padding: 1rem 3rem;
+    font-size: 1rem;
     border-radius: 30px;
 }
+
+.sidemenu ul{
+    position: absolute;
+    top: 0;
+    right:0;
+    height: 100vh;
+    width: 260px;
+    flex-direction: column;
+    background-color: #fff;
+    transition: all 0.6s ease-in-out;
+}
+
+.sidemenu ul li{
+    margin-top: 0.50rem;
+    padding: 0.50rem 1rem;
+}
+
+.close{
+    position: absolute;
+    top: 0.50rem;
+    right: 1rem;
+}
+.close:hover{
+    transition: all 1s ease;
+    transform: rotate(360deg);
+}
+
