@@ -113,3 +113,51 @@ margin-top: 50vh;
 }
 
 
+@media all and (max-width:1000px){
+    .header ul:nth-of-type(1){
+        display: none;
+    }  
+    
+}
+
+@media all and (max-width:500px){       
+    .anchor a{
+        flex-direction: column;
+    }
+    .section h1{
+        font-size: 2rem;
+    }
+
+    .section p{
+        font-size: 1rem;
+    }
+
+    .anchor a{
+        display: inline-block;
+    }
+
+
+}    
+
+@media all and (max-width:320px){
+    .sideli li:nth-of-type(1){
+        display: none;
+    }
+
+    .sideli li:nth-of-type(2){
+        display: none;
+    }
+
+    .sideli li:nth-of-type(3){
+        margin-left: 5rem;
+    }
+
+    .secton p{
+        font-size: 0.50rem;
+    }
+
+    .sidemenu{
+        width: 400px;
+    }
+}
+

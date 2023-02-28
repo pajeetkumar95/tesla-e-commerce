@@ -41,7 +41,7 @@ function Header() {
           <a href="">Solar Panels</a>
         </li>
       </ul>
-      <ul>
+      <ul className="sideli">
         <li>
           <a href="">Shop</a>
         </li>

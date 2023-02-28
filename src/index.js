@@ -10,7 +10,7 @@ import ReactDOM from 'react-dom/client';
 import Home from './Tesla Work/Home'
 import "./Tesla Work/./tesla.css"
 // import Head from './Axios/Head'
-
+// import "./Axios/./head.css"
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
