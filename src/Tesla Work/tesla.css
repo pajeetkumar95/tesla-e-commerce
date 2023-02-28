@@ -139,7 +139,7 @@ margin-top: 50vh;
 
 }    
 
-@media all and (max-width:320px){
+@media all and (max-width:350px){
     .sideli li:nth-of-type(1){
         display: none;
     }
