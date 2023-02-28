@@ -121,9 +121,6 @@ margin-top: 50vh;
 }
 
 @media all and (max-width:500px){       
-    .anchor a{
-        flex-direction: column;
-    }
     .section h1{
         font-size: 2rem;
     }
@@ -135,11 +132,6 @@ margin-top: 50vh;
     .anchor a{
         display: inline-block;
     }
-
-
-}    
-
-@media all and (max-width:350px){
     .sideli li:nth-of-type(1){
         display: none;
     }
@@ -148,8 +140,24 @@ margin-top: 50vh;
         display: none;
     }
 
+
+}    
+
+
+@media all and (max-width:400px){       
     .sideli li:nth-of-type(3){
         margin-left: 5rem;
+    }
+    .anchor a{
+        display: block;
+    }
+    
+}    
+
+@media all and (max-width:350px){
+
+    .sideli li:nth-of-type(3){
+        margin-left: 8rem;
     }
 
     .secton p{
@@ -159,5 +167,6 @@ margin-top: 50vh;
     .sidemenu{
         width: 400px;
     }
+
 }
 
